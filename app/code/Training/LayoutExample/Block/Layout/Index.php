@@ -18,14 +18,4 @@ class Index extends Template
             $pageMainTitle->setPageTitle('Developer');
         }
     }
-    public function getSubTitle()
-    {
-        return 'Learn Magento Development';
-    }
-
-    public function getNodeHtml(){
-        return $this->getLayout()->createBlock(Note::class)->toHtml();
-    }
-
 }
-
