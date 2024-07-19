@@ -11,4 +11,3 @@ class Note extends Template
 {
    protected $_template = "Training_LayoutExample::note.phtml";
 }
-
